@@ -255,7 +255,7 @@ footer {
     padding: 10px 20px;
     border: none;
     background-color: #f4f4f4;
-    background-image: url('super-mario-bros-jump.jpg'); /* Voeg hier het pad naar je afbeelding in */
+    background-image: url('images/super-mario-bros-jump.jpg'); /* Voeg hier het pad naar je afbeelding in */
     background-size: cover; /* Dit zorgt ervoor dat de afbeelding de hele knop bedekt */
     color: #333;
     text-decoration: none;
