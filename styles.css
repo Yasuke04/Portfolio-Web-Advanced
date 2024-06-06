@@ -123,7 +123,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('images/ls.jpg') no-repeat center center fixed;
+    background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXh0Njh2bXhyY3Izb3o4ajkyc3hhZnFoNmdpajh6NGQxZjN3cTRqaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VwXcgwGIPyiiY/giphy.webp') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -255,7 +255,7 @@ footer {
     padding: 10px 20px;
     border: none;
     background-color: #f4f4f4;
-    background-image: url('images/super-mario-bros-jump.jpg'); /* Voeg hier het pad naar je afbeelding in */
+    background-image: url('images/images-m.png'); /* Voeg hier het pad naar je afbeelding in */
     background-size: cover; /* Dit zorgt ervoor dat de afbeelding de hele knop bedekt */
     color: #333;
     text-decoration: none;
@@ -266,4 +266,48 @@ footer {
 
 .image-button:hover {
     transform: scale(1.05);
+}
+
+/* Stijl voor de knop met een afbeelding */
+.image-button {
+    display: inline-block;
+    width: 100px; /* Pas dit aan aan de grootte van je afbeelding */
+    height: 100px; /* Pas dit aan aan de grootte van je afbeelding */
+    background-image: url('images/images-m.png'); /* Voeg hier het pad naar je afbeelding in */
+    background-size: cover; /* Dit zorgt ervoor dat de afbeelding de hele knop bedekt */
+    border-radius: 50%; /* Dit maakt de knop rond, verwijder of pas aan voor een andere vorm */
+    transition: transform 0.3s ease;
+}
+
+.image-button:hover {
+    transform: scale(1.1); /* Dit vergroot de knop iets als je eroverheen beweegt */
+}
+
+.image-button:active {
+    transform: scale(0.9); /* Dit verkleint de knop iets als je erop klikt */
+}
+
+/* Stijl voor de knop met een afbeelding */
+.image-button {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.image-button img {
+    display: block;
+    width: 100px; /* Pas dit aan aan de breedte van je afbeelding */
+    height: 100px; /* Pas dit aan aan de hoogte van je afbeelding */
+    object-fit: cover; /* Dit zorgt ervoor dat de afbeelding de hele ruimte bedekt */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-button:hover img {
+    transform: scale(1.05); /* Kleine animatie bij hover */
+}
+
+.image-button:active img {
+    transform: scale(0.9); /* Dit verkleint de afbeelding iets als je erop klikt */
 }
