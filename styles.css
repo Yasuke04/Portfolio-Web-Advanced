@@ -235,3 +235,35 @@ footer {
 .stats-table th {
     background-color: #f4f4f4;
 }
+
+@keyframes score-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: -100px 0; } /* Pas dit aan aan de grootte van je sprite sheet */
+}
+
+.score-sprite {
+    display: inline-block;
+    width: 20px; /* Breedte van één frame */
+    height: 20px; /* Hoogte van je sprite */
+    background-image: url('path-to-your-sprite-sheet.png');
+    background-repeat: no-repeat;
+    animation: score-animation 1s steps(5) infinite; /* Pas 'steps' aan aan het aantal frames */
+}
+
+/* Stijl voor de knop met een afbeelding */
+.image-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f4f4f4;
+    background-image: url('path-to-your-image.jpg'); /* Voeg hier het pad naar je afbeelding in */
+    background-size: cover; /* Dit zorgt ervoor dat de afbeelding de hele knop bedekt */
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+}
