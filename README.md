@@ -30,6 +30,14 @@ De volgende JavaScript- en HTML-elementen zijn geïmplementeerd in het project:
 - **Consumer methods**: `forEach` wordt gebruikt als een consumer method in `script.js`.
 - **Async & Await**: Asynchrone functies met `async` en `await` worden gebruikt in `script.js` voor asynchrone operaties zoals data ophalen.
 - **Fetch om data op te halen**: De `fetch` API wordt gebruikt in `script.js` om externe data op te halen en te verwerken.
+- ## JSON Manipulatie en Weergave
+
+In `script.js`, wordt de `fetch` API gebruikt om game data op te halen van een externe bron. De opgehaalde data, die in JSON-formaat is, wordt vervolgens geparseerd naar een JavaScript-object met `response.json()`. Dit proces illustreert hoe we JSON manipuleren en weergeven binnen de applicatie.
+
+- **Locatie in Code**: `script.js` functie `fetchGameData`.
+- **Doel**: Het ophalen van game data in JSON-formaat en het omzetten naar een bruikbaar JavaScript-object.
+- **Gebruik**: De opgehaalde en geparseerde data wordt gebruikt om de UI te updaten met de nieuwste gamebeoordelingen.
+
 
 ## Functionaliteiten
 
@@ -37,6 +45,14 @@ De website bevat de volgende functionaliteiten:
 - Dynamische weergave van gamebeoordelingen.
 - Formuliervalidatie om ervoor te zorgen dat gebruikersinvoer correct is.
 - Gebruik van LocalStorage om gebruikersnamen op te slaan en te laden.
+
+## Bronnen
+[Changing Desktop Background to GIF.pdf](https://github.com/user-attachments/files/15742894/Changing.Desktop.Background.to.GIF.pdf)
+
+[Verification Request.pdf](https://github.com/user-attachments/files/15742897/Verification.Request.pdf)
+
+[Implementatie van JavaScript en CSS functies in een website.pdf](https://github.com/user-attachments/files/15742901/Implementatie.van.JavaScript.en.CSS.functies.in.een.website.pdf)
+
 
 ## Installatie
 
