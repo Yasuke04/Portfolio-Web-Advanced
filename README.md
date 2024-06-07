@@ -53,6 +53,8 @@ De website bevat de volgende functionaliteiten:
 
 [Implementatie van JavaScript en CSS functies in een website.pdf](https://github.com/user-attachments/files/15742901/Implementatie.van.JavaScript.en.CSS.functies.in.een.website.pdf)
 
+https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3UyNTJ1eDV0a3lseDdzamU5Y2J5bnM4ZmF1cjB3aHh1d2RnaXIzdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VwXcgwGIPyiiY/giphy.gif
+
 
 ## Installatie
 
