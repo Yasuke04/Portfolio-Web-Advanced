@@ -46,6 +46,14 @@ De website bevat de volgende functionaliteiten:
 - Formuliervalidatie om ervoor te zorgen dat gebruikersinvoer correct is.
 - Gebruik van LocalStorage om gebruikersnamen op te slaan en te laden.
 
+## Bronnen
+[Changing Desktop Background to GIF.pdf](https://github.com/user-attachments/files/15742894/Changing.Desktop.Background.to.GIF.pdf)
+
+[Verification Request.pdf](https://github.com/user-attachments/files/15742897/Verification.Request.pdf)
+
+[Implementatie van JavaScript en CSS functies in een website.pdf](https://github.com/user-attachments/files/15742901/Implementatie.van.JavaScript.en.CSS.functies.in.een.website.pdf)
+
+
 ## Installatie
 
 Om de website lokaal te draaien, kloon de repository en open `index.html` in uw browser.
