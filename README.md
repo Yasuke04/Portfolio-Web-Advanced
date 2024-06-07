@@ -1,41 +1,47 @@
 # Game Reviews Website
 
-Welkom bij de repository van Ediered's Game Reviews website. Deze website is een platform waar game-enthousiastelingen kunnen lezen over beoordelingen van verschillende videogames.
+Dit is de repository voor mijn Game Reviews website, een interactief platform waar gebruikers gamebeoordelingen kunnen lezen en hun eigen gegevens kunnen invoeren.
 
 ## Inhoud
 
-- Overzicht
-- Technologieën
-- Functies
+- Elementen
+- Functionaliteiten
 - Installatie
 - Gebruik
 - Bijdragen
 - Licentie
 
-## Overzicht
+## Elementen
 
-Ediered's Game Reviews biedt diepgaande beoordelingen en analyses van verschillende videogames. De website is ontworpen om gebruikers een intuïtieve en informatieve ervaring te bieden.
+De volgende JavaScript- en HTML-elementen zijn geïmplementeerd in het project:
 
-## Technologieën
+- **Elementen selecteren**: Gebruikt in `script.js` om DOM-elementen te selecteren met methoden zoals `getElementById` en `querySelector`.
+- **Elementen manipuleren**: Toegepast in `script.js` om de inhoud van elementen te wijzigen met `textContent` en `innerHTML`.
+- **Event aan een element koppelen**: Geïmplementeerd in `script.js` met `addEventListener` om functies uit te voeren bij bepaalde gebruikersacties.
+- **Formulier valideren**: Aanwezig in `contact.html` met het `onsubmit` attribuut dat verwijst naar een validatiefunctie in `script.js`.
+- **Gebruiken van een constante**: Constanten worden gedefinieerd met `const` in `script.js` voor betere codebeheersing.
+- **Gebruiken van template literals**: Template literals worden gebruikt in `script.js` voor het dynamisch genereren van strings.
+- **Destructuring**: Toegepast in `script.js` om objecteigenschappen efficiënt uit te pakken.
+- **Spread & Rest operator**: Gebruikt in `script.js` om arrays en objecten uit te breiden of samen te voegen.
+- **Iteration over een array**: `forEach` wordt gebruikt in `script.js` om over arrays te itereren.
+- **Arrow function**: Arrow functions worden gebruikt in `script.js` voor compactere functiedefinities.
+- **Callback function**: Callbacks worden gebruikt in `script.js`, vooral in array-methoden zoals `forEach`.
+- **Promise**: Promises worden gebruikt in `script.js` voor asynchrone operaties, samen met `async` en `await`.
+- **Consumer methods**: `forEach` wordt gebruikt als een consumer method in `script.js`.
+- **Async & Await**: Asynchrone functies met `async` en `await` worden gebruikt in `script.js` voor asynchrone operaties zoals data ophalen.
+- **Fetch om data op te halen**: De `fetch` API wordt gebruikt in `script.js` om externe data op te halen en te verwerken.
 
-De website maakt gebruik van de volgende technologieën:
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+## Functionaliteiten
 
-## Functies
-
-De website bevat de volgende functies:
-- Dynamische weergave van gamebeoordelingen
-- Formuliervalidatie voor contactformulieren
-- Responsief ontwerp met Flexbox en CSS Grid
-- Basis CSS-animaties voor een aantrekkelijke gebruikersinterface
-- Lokale opslag om gebruikersvoorkeuren te bewaren
+De website bevat de volgende functionaliteiten:
+- Dynamische weergave van gamebeoordelingen.
+- Formuliervalidatie om ervoor te zorgen dat gebruikersinvoer correct is.
+- Gebruik van LocalStorage om gebruikersnamen op te slaan en te laden.
 
 ## Installatie
 
 Om de website lokaal te draaien, kloon de repository en open `index.html` in uw browser.
 
 ```bash
-git clone https://github.com/uwgebruikersnaam/game-reviews.git
+git clone https://github.com/Yasuke04/game-reviews.git
 cd game-reviews
