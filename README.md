@@ -43,5 +43,5 @@ De website bevat de volgende functionaliteiten:
 Om de website lokaal te draaien, kloon de repository en open `index.html` in uw browser.
 
 ```bash
-git clone https://github.com/uwgebruikersnaam/game-reviews.git
+git clone https://github.com/Yasuke04/game-reviews.git
 cd game-reviews
