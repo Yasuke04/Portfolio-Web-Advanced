@@ -57,3 +57,17 @@ async function initializeFormValidation() {
 function animateTitle() {
     // CSS Animatie logica hier
 }
+
+function validateForm() {
+    const name = document.contactForm.name.value;
+    const email = document.contactForm.email.value;
+
+    if (name == "" || email == "") {
+        alert("Name and email must be filled out !!!");
+        return false;
+    }
+
+    // Voeg hier meer validatielogica toe indien nodig
+
+    return true; // Retourneer true als het formulier geldig is
+}
