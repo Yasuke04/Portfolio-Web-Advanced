@@ -66,7 +66,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #0adce4;
     color: #fff;
     padding: 1em 0;
 }
@@ -112,7 +112,7 @@ main {
 }
 
 footer {
-    background: #333;
+    background: #0060ce;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -188,7 +188,7 @@ main {
 }
 
 footer {
-    background: rgba(51, 51, 51, 0.8);
+    background: rgba(0, 156, 228, 0.8);
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -234,20 +234,6 @@ footer {
 
 .stats-table th {
     background-color: #f4f4f4;
-}
-
-@keyframes score-animation {
-    0% { background-position: 0 0; }
-    100% { background-position: -100px 0; } /* Pas dit aan aan de grootte van je sprite sheet */
-}
-
-.score-sprite {
-    display: inline-block;
-    width: 20px; /* Breedte van één frame */
-    height: 20px; /* Hoogte van je sprite */
-    background-image: url('path-to-your-sprite-sheet.png');
-    background-repeat: no-repeat;
-    animation: score-animation 1s steps(5) infinite; /* Pas 'steps' aan aan het aantal frames */
 }
 
 /* Stijl voor de knop met een afbeelding */
