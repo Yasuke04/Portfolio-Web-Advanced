@@ -315,3 +315,7 @@ footer {
 .review-container {
     color: white;
 }
+
+.review-container h2 {
+    color: white;
+}
