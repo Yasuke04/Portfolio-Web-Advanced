@@ -71,3 +71,23 @@ function validateForm() {
 
     return true; // Retourneer true als het formulier geldig is
 }
+
+// Functie om de naam op te slaan in LocalStorage
+function saveName() {
+    const name = document.getElementById('name').value;
+    localStorage.setItem('userName', name);
+}
+
+// Functie om de naam te laden van LocalStorage
+function loadName() {
+    const name = localStorage.getItem('userName');
+    if (name) {
+        document.getElementById('name').value = name;
+    }
+}
+
+// Roep loadName aan wanneer de pagina laadt om de naam te laden
+document.addEventListener('DOMContentLoaded', loadName);
+
+// Roep saveName aan wanneer het formulier wordt ingediend om de naam op te slaan
+document.contactForm.onsubmit = saveName;
